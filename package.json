@@ -23,14 +23,9 @@
   "module": "index.js",
   "types": "./index.d.ts",
   "files": [
-    "index.js",
-    "index.d.ts"
+    "index.js"
   ],
   "scripts": {
-    "build": "tsc",
-    "prepack": "tsc --sourceMap false",
-    "test": "xo && tsc --noEmit",
-    "watch": "tsc --watch"
   },
   "xo": {
     "envs": [
