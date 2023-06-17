@@ -1,5 +1,5 @@
 {
-  "name": "image-promise",
+  "name": "@morr/image-promise",
   "version": "7.0.1",
   "description": "Load one or more images, return a promise. Only 0.4KB, for the browser, no dependencies.",
   "keywords": [
@@ -16,7 +16,7 @@
     "then",
     "vanilla"
   ],
-  "repository": "fregante/image-promise",
+  "repository": "morr/image-promise",
   "license": "MIT",
   "author": "Federico Brigante <opensource@bfred.it> (bfred.it)",
   "type": "module",
