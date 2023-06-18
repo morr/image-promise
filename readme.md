@@ -1,7 +1,7 @@
-#  image-promise [![][badge-gzip]](#link-npm)
+#  @morr/image-promise [![][badge-gzip]](#link-npm)
 
-  [badge-gzip]: https://img.shields.io/bundlephobia/minzip/image-promise.svg?label=gzipped
-  [link-npm]: https://www.npmjs.com/package/image-promise
+  [badge-gzip]: https://img.shields.io/bundlephobia/minzip/@morr/image-promise.svg?label=gzipped
+  [link-npm]: https://www.npmjs.com/package/@morr/image-promise
 
 <img align="right" width="400" src="https://user-images.githubusercontent.com/1402241/81458802-b7a21580-919c-11ea-9599-377d7aee1670.gif">
 
@@ -31,17 +31,17 @@ It can be used in two ways:
 
 ## Install
 
-You can download the [standalone bundle](https://bundle.fregante.com/?pkg=image-promise&global=loadImage)
+You can download the [standalone bundle](https://bundle.fregante.com/?pkg=@morr/image-promise&global=loadImage)
 
 Or use `npm`:
 
 ```sh
-npm install image-promise
+npm install @morr/image-promise
 ```
 
 ```js
 // This module is only offered as a ES Module
-import loadImage from 'image-promise';
+import loadImage from '@morr/image-promise';
 ```
 
 ## Usage
@@ -65,7 +65,7 @@ loadImage(image)
 
 ### Multiple images
 
-`image-promise` can load multiple images at a time
+`@morr/image-promise` can load multiple images at a time
 
 ```js
 const images = ['cat.jpg', 'dog.jpg'];
